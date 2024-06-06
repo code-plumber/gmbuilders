@@ -23,7 +23,7 @@ export default function Home() {
         <br></br>
         <br></br>
         <h3>Why Choose Us</h3>
-        <p>Choosing the right construction company is crucial for the success of your project. Here's why <strong>GM Builders</strong> stands out:</p>
+        <p>Choosing the right construction company is crucial for the success of your project. Here&apos;s why <strong>GM Builders</strong> stands out:</p>
         <br></br>
             <ul>
           <li><strong>Experienced Team:</strong> Our skilled professionals bring years of experience and expertise.</li>
