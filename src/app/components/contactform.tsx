@@ -18,7 +18,7 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col mt-2">
       <label htmlFor="name">Name</label>
       <input
         type="text"
@@ -28,7 +28,7 @@ const ContactForm = () => {
         autoComplete="off"
       ></input>
     </div>
-    <div className="w-full flex flex-col">
+    <div className="w-full flex flex-col mt-2">
       <label htmlFor="email">E-Mail</label>
       <input
         type="text"
@@ -38,7 +38,7 @@ const ContactForm = () => {
         autoComplete="off"
       ></input>
     </div>
-    <div>
+    <div className='mt-2'>
       <label htmlFor="message">Message</label>
         <textarea
           id='message'
