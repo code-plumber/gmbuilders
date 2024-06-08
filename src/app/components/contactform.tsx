@@ -16,9 +16,8 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
         <div className="w-full flex flex-col mt-2">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name" className="mt-4">Name</label>
           <input
             type="text"
             id="name"
@@ -26,9 +25,8 @@ const ContactForm = () => {
             className=" p-4 bg-gray-50 border border-grey-100"
             autoComplete="off"
           ></input>
-        </div>
-        <div className="w-full flex flex-col mt-2">
-          <label htmlFor="email">E-Mail</label>
+
+          <label htmlFor="email" className="mt-4">E-Mail</label>
           <input
             type="text"
             id="email"
@@ -36,9 +34,8 @@ const ContactForm = () => {
             className=" p-4 bg-gray-50 border border-grey-100"
             autoComplete="off"
           ></input>
-        </div>
-        <div className="mt-2">
-          <label htmlFor="message">Message</label>
+
+          <label htmlFor="message" className="mt-4">Message</label>
           <textarea
             id="message"
             rows={4}
@@ -46,8 +43,7 @@ const ContactForm = () => {
             placeholder="How can we help you?"
             className="w-full p-4 bg-gray-50 border border-grey-100"
           ></textarea>
-        </div>
-        <div>
+
           <button
             type="submit"
             className="px-4 py-2 w-40 bg-gray-700 text-white mt-4"
@@ -55,7 +51,6 @@ const ContactForm = () => {
             Send Message
           </button>
         </div>
-      </div>
     </form>
   );
 };
